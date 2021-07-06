@@ -1,0 +1,283 @@
+body,*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+a, a:hover{
+	text-decoration: none;
+
+}
+
+h1,h2,h3,h4,h5,h6,a,span,p,input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*******************
+ header section css code
+ *******************/
+
+.header{
+	padding: 32px 0;
+
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.h-left, .h-right{
+	display: flex;
+	align-items: center;
+}
+
+.h-left ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.h-left ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+}
+
+.h-left ul li a{
+	color: #292640;
+	font-weight: 600;
+	margin: 0 12px;
+}
+
+.h-left ul li a:hover{
+	color: #15eeee;
+}
+.h-right button{
+	background: #ff6162;
+   color: white;
+   padding: 12px 32px;
+   border: none;
+   text-transform: capitalize;
+   font-weight: 600;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.h-right button:hover{
+	background: #292640;
+
+}
+
+/*******************
+ banner section css code
+ ******************/
+
+ .banner{
+ 	width: 100%;
+ 	height: 100vh;
+ 	display: flex;
+    align-items: center;
+ }
+
+ .b-left .b-right{
+ 	flex-basis: 50%;
+ }
+
+ .b-left h1{
+ 	color: #292640;
+ 	font-size: 52px;
+    font-weight: 700;
+}
+
+.b-left p{
+	color: #a2a4a5;
+	font-size: 20px;
+	margin-right: 31px;
+	line-height: 25px;
+
+}
+
+ .banner-text{
+ 	display: flex;
+
+ }
+
+ .b-left i{
+ 	height: 40px;
+ 	width: 40px;
+ 	color: #a2a4a5;
+ 	text-align: center;
+ 	line-height: 40px;
+ 	border-radius: 100px;
+ 	border: 2px solid #a2a4a5;
+}
+
+.b-left i:hover{
+	background: #292640;
+	border-color: #292640;
+	color: white;
+}
+
+/*******************
+ portfolio section css code
+ *******************/
+
+
+.portfolio{
+	padding: 30px 0;
+}
+.port-wrap{
+	width: 100%;
+}
+
+.gallary{
+	text-align: center;
+}
+
+
+.gallary h3 .Features-item h3{
+	color: #292640;
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.gallary p, .Features-item p{
+	text-align: center;
+	font-size: 18px;
+	line-height: 27px;
+	font-style: italic;
+
+}
+
+.gallary-item{
+	margin-top: 24px;
+	display: flex;
+	justify-content: space-around;
+}
+.gallary-item .item img{
+	width: 350px;
+	height: 450px;
+}
+
+
+/*i don't work of shadow*/
+
+
+
+
+
+
+.line{
+	width: 2px;
+	height: 50px;
+	background: #989898;
+	margin: 40px auto;
+}
+
+
+/*******************
+ features section css code
+ *******************/
+
+.Features{
+	padding: 40px 0;
+}
+
+.items{
+	margin-top: 0px;
+	display: flex;
+   padding-top: 20px;
+
+
+}
+.Features-item{
+	text-align: center;
+}
+.Features-item p{
+	padding-bottom: 100px;
+}
+
+.item{
+	text-align: center;
+	background: #eee;
+	margin-right: 15px;
+	align-items: center;
+}
+
+.item p{
+	font-style: normal !important;
+}
+
+.item a i{
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:#FF6162; 
+    background: #ffffff;
+    border: 2px solid #FF6162;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.item h5{
+	font-size: 20px;
+	margin: 16px 0px;
+}
+
+/*******************
+ footer section css code
+ *******************/
+
+
+.footer{
+    margin-top: 60px;
+    padding: 40px 0;
+    width: 100%;
+    height: 40vh;
+    background: #292640;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-part{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-text{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.f-text h2{
+    padding-top: 70px;
+    color: white;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.navbar button, a button{
+    background: #ff6162;
+    padding: 14px 18px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
